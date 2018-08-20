@@ -1,0 +1,233 @@
+html{
+  font-size: 16px;
+}
+
+h1,h2,h3,h4{
+  font-family: 'Raleway', sans-serif;
+  color:dimgray;
+  line-height: 1.4;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 2rem 0rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+span,li,p,a {
+  margin:0;
+  color: dimgray;
+  line-height: 1.4;
+}
+
+.container{
+  width:80%;
+  display: block;
+}
+
+.mainframe{
+  display:flex;
+  justify-content: center;
+  padding: 2rem 1.5rem;
+}
+
+/*-- Header --*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  padding: 1rem 1.5rem;
+}
+
+.logo{
+  display:flex;
+  align-items: center;
+}
+
+.logo img{
+  height: 4rem;
+}
+
+.logo p{
+  font-size: 2rem;
+  color:gray;
+}
+
+p#colmar{
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+}
+
+li {
+  font-size: 1.2rem;
+  padding:1rem;
+}
+
+li:hover{
+  border-radius: 0.75rem;
+  background-color: dimgray;
+  color: white;
+}
+
+/*-- large-container--*/
+
+.large-container{
+  display: flex;
+}
+
+.leftbox{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height:auto;
+  margin: 2rem 1.5rem;
+}
+
+img.leftbox {
+  display:block;
+  width: 100%;
+  height: auto;
+}
+
+.lefttext{
+  margin: 0 1.5rem;
+}
+
+h1.lefttext{
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+p.lefttext {
+  padding-bottom: 2rem;
+}
+
+a.lefttext {
+  margin: 1rem;
+  font-size: 0.85rem;
+  font-style: italic;6
+}
+
+.rightbox{
+  padding: 2rem;
+  max-width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+/*-- banner --*/
+
+#banner.large-container {
+  background-color: lightgray;
+}
+
+#banner.rightbox {
+  top: 30%;
+}
+
+/*-- button--*/
+
+.btn{
+  justify-content: center;
+  display:flex;
+  background-color: dimgray;
+  color: white;
+  width: 80%;
+  padding:0.5rem;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.btn:hover{
+  background-color: white;
+  color:dimgray;
+}
+
+/*-- feature --*/
+
+.rightbox{
+  flex-direction: column;
+  padding: 0;
+  margin:1rem;
+}
+
+#feature.rightbox{
+    border-left: 1px solid lightgray;
+}
+
+.image-textbox{
+  display: flex;
+  height:33%;
+}
+
+.smallimage{
+  padding: 0.7rem 1rem;
+  width:35%;
+  display: flex;
+  align-items: center;
+}
+
+img.smallimage {
+  width:100%;
+  height: auto;
+}
+
+.textbox{
+  width:65%;
+  padding:1rem;
+  display:block;
+  align-items: center;
+}
+
+ p.textbox {
+  padding-bottom: 1rem;
+  margin: 0;
+}
+
+#highlight{
+  background-color: lightgray;
+}
+
+#link{
+  display:flex;
+  color:deepskyblue;
+  padding-top:1rem;
+}
+
+/*-- Classes--*/
+   .classes{
+     background-color: lightgray;
+   }
+
+/*-- Thesis --*/
+.title{
+  display:flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+video#thesisvid {
+  display:flex;
+  width:800px;
+  height:auto;
+}
+
+#thesisright {
+  border: none;
+}
+
+
+  border: 1px solid red;
